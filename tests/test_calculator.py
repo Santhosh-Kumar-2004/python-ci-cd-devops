@@ -1,6 +1,5 @@
 import pytest
 from src.calculator import add, divide, subtract, multiply
-import math
 
 
 # small commetn testing the calculator functions
