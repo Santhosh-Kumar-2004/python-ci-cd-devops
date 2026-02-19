@@ -3,7 +3,7 @@ from src.password_validator import validate_password
 
 
 def test_valid_password():
-    assert validate_password("StrongPass") is True
+    assert validate_password("StrongPass1@") is True
 
 
 def test_too_short():
@@ -16,7 +16,6 @@ def test_no_uppercase():
 
 def test_no_digit():
     assert validate_password("WeakPassword") is False
-
 
 # simplete commetn to test the balcm
 def test_contains_space():
