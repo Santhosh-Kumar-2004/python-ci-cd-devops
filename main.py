@@ -4,6 +4,6 @@ import math
 password = input("Enter password: ")
 
 if validate_password(password):
-    print("Password is valid")
+    print("Password is valid, small update")
 else:
-    print("Password is invalid")
+    print("Password is invalid, small update")
