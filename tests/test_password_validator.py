@@ -17,6 +17,7 @@ def test_no_uppercase():
 def test_no_digit():
     assert validate_password("WeakPassword") is False
 
+
 # simplete commetn to test the balcm
 def test_contains_space():
     assert validate_password("Weak Pass1") is False
