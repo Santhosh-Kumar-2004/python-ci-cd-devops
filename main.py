@@ -1,5 +1,6 @@
 from src.password_validator import validate_password
-import math
+
+# import math
 
 password = input("Enter password: ")
 
