@@ -7,3 +7,4 @@ pytest
 pydantic[email]
 httpx
 flake8
+black
