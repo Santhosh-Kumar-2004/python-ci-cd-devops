@@ -13,7 +13,7 @@ def validate_password(password: str) -> bool:
 
     if not has_upper or not has_digit:
         return False
-    
+
     has_special = any(char in "!@#$%^&*()-_=+[]{}|;:,.<>?/" for char in password)
     if not has_special:
         return False

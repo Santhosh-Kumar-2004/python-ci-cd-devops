@@ -29,5 +29,6 @@ def test_empty_string():
 def test_non_string_input():
     assert validate_password(12345) is False
 
+
 def test_no_special_character():
     assert validate_password("WeakPass1") is False

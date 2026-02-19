@@ -7,6 +7,7 @@ fake_users_db = {}
 
 print(fake_users_db)
 
+
 @app.post("/register")
 def register(user: UserRegister):
     if user.email in fake_users_db:
