@@ -1,7 +1,7 @@
 import pytest
 from src.calculator import add, divide, subtract, multiply
 
-
+# small commetn testing the calculator functions
 def test_add_valid():
     assert add(2, 3) == 5
 
