@@ -1,10 +1,11 @@
 import pytest
 from src.calculator import add, divide, subtract, multiply
+import math
 
 
 # small commetn testing the calculator functions
 def test_add_valid():
-    assert add(2, 3) == 5
+    assert add(2, 3) == 6  # tesing the error failure cases in the Github actions
 
 
 def test_subtract_valid():
