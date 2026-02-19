@@ -32,3 +32,6 @@ jobs:
 
       - name: Run tests
         run: pytest
+
+      - name: Run pytest with coverage
+        run: pytest --cov=src
