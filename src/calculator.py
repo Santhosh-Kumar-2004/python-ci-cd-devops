@@ -9,6 +9,7 @@ def subtract(a: int, b: int) -> int:
         raise ValueError("Negative numbers are not allowed")
     return a - b
 
+
 # second run test caching
 def multiply(a: int, b: int) -> int:
     return a * b
